@@ -1,0 +1,98 @@
+Edit - prefereces
+
+Defaolut postioion static , 
+
+.cart in <span>
+
+parent - ralative , child - ablsolute
+
+Cart 2
+
+
+
+Website - 5 pages .
+Wordpress - automatic header , footer, content
+Pages Interaction - JavaScript  , jQuery
+
+
+***DW - Start a Webiste
+
+1. (Module)Site -> New Site (Folder name - VivanStaticWebsite)
+2. Next
+3. Server tech. No - Next
+4. Selct folder
+5. next
+6. No ( chekcng
+7. done.
+
+Site - Mangae Site (to manage sites (projects )
+
+create index.html (in Vivan folder)
+
+(FrameworK) bootstrap - select version(3.3) - Basic template , copy code , paste in index.html
+
+Donwload Bootstrap folder
+
+copy folder and paste in vivan/libs/bootstrap
+
+Referesh in site mangaer (DW)
+Modify - > href="libs/bootstrap/js/....
+libs/bootstrap/css....." in <link> tag
+
+<srcipt src="webiste url"> copy url and go to webiste -> save as code vivan/libs/jquery/jquery.min.js(save)
+ - > <srcipt src="remove website url and give path of file">
+
+***COnvert to template - > Insert -> Template objects -> Make tempate 
+Save as - default template. -> Yes
+
+templates/index.dwt(dreamweavertemplate) - all pages in vivan content has common content , edit <!-- TemplateBeginEditable --> can edit only green coomented code
+
+- copy template coomennt code in body (name="content" ,name="footer")
+
+
+- delete all code in index.html
+
+assets - templates - index.html (drag and drop right to left code).(grey color) - We can edit only editable code.
+
+- File - Save as - About.html
+
+- File - Save as - Services.html
+
+- File - Save as - Contact.html
+
+open index page - files - refresh
+
+<html>
+<title>VIvan Projects</title> (Contact Vivan Projects) 
+
+update title in all pages.
+
+
+Go to  bootstrap webiste - Navbar - copy code nd paste in - templates/index.dwt - paste in <body> - save
+
+browser - refresh any page- code in al pages.
+
+
+change logo name in index.dwt
+
+check code in inspect eleemtn
+
+delette unwanted code.
+
+
+save - update (.dwt)
+
+container-fluid (delete fluid)
+
+navbar-inverse, navbar-default,
+
+.dwt - > Add <footer></footer>
+
+
+
+
+
+
+
+
+

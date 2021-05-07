@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js">
+</script>
+
+  <script>
+		$().ready((function() {
+ 
+  		$("#formsubmit").validate( {
+    
+         rules: {
+      
+                Name:{required:true , minlength:3 },
+     
+	            Address:{required:true },
+      
+	            Mobile:{required: true,
+                          minlength: 10 },
+	  
+	            Email: { required: true}, 
+						   
+                  
+                },
+    
+    messages: {
+    			Name:{required:"Please enter your firstname"},
+     
+	 			Address: {required:"Please enter your lastname"},
+      
+	  			Mobile: {required: "Please provide a password",
+                      minlength: "Your Mobile Number must be 10 Numbers " },
+     
+            	Email:{required:"Please enter a valid email address"},
+               },
+    
+             submitHandler: function(form)
+			  {
+             form.submit();
+                }
+  });
+}));
+       
+
+    </script>
+</body>
+</html>

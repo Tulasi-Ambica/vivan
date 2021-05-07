@@ -1,0 +1,226 @@
+.dwt file - <header> , <main>, <footer>
+
+Fontawesome - icons
+
+corossol (Java script) - copy code in (index.html) - paste (delte <main> code)
+
+....(indicators)
+
+class="item" - slides
+
+class="   hide" -> display :none;
+
+Controllers - corosol control
+
+FireShot (app to take webpage screenshot)
+
+Image - conasvas size = 5000, oppostite directin  (layer 1)
+(layer 2) - opocity 50% - shift move down layer 2 , 100%OPCITY , ZERO(100%),5(50%) , CROP AND DLELTE  extra cropped content. 
+- same layer 3
+
+- Write text in corosols
+
+
+
+- css buttons 
+
+- text-uppercase
+
+- only first div corosol active
+
+- save images in images/slide-1 , images/slide-2.jpg folder
+
+<section>
+<div class-container>
+<2 corosols>
+</dvi>
+</sectin>
+
+- edit css of content in corosol (left:5%,right:auto/0,background-color:red, )
+
+- Edit in index.html with <style>corosol{left:5%,right:auto/0,background-color:red,}</style>
+
+- overwrite corosel-coontent{background:none !important;} - To delete shadow.
+
+- Section 1 (slidiong ) finish
+
+
+
+..... Section 2 start .....
+
+
+- <section>
+	<div class="container">
+		<div class="row" style=margin-top:30px;margin-bottom:30px;> - if more than one row , use row class ,default 12 columns (we need 4 columns 12/4 = 3)
+			<div class="cols-sm-3 col-sm-2-offset-2 text-center"><img src="cutimagepath"><p style-margin:top- 10px;>choose the</p></div>
+			<div class="cols-sm-3">
+			<div class="cols-sm-3">
+			<div class="cols-sm-3">
+	
+	</div>
+</div>
+</sectoin> 
+
+- cut image(trim and cut) and add in cols.
+
+- Next section - 3 ******
+
+- <section
+  <div container
+		<div row
+			<div cols-sm-3
+</>
+
+- <p></p><p><a href="#"></a>
+
+- Shop Now&raquo;
+
+-  class="btn btn-primary"
+
+- .s3 .container(section class name)
+{
+	backgound-image : url(img.jpg);
+	padding:left:75px;
+}
+
+
+- social media icons
+
+	<section style="margin:30px 0;>
+		<div class="container clearfix"
+				<div class="pull-left/pull-right">Follow Microsoft
+						<ul class="list-inline pull-left" style="margin:left:10px>
+						<li><a href=""><img src="facebokimage"></a>
+						<li><a href=""><img src="twittimage"></a>
+						<li><a href=""><img src="instaimage"></a>
+						</ul>
+ 
+
+- Footer in master page(.dwt)
+
+      <sectin class="footer-top">
+		<div class="container
+			<div class="row">
+				<div class="col-sm-2"
+						<ul class="list-unstyled"
+					<li> <a href=""><strong>Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li><li> <a href="">surface Go</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+
+				</ul>
+					</div> </div>
+<div class="container
+			<div class="row">
+				<div class="col-sm-2"
+						<ul class="list-unstyled"
+					<li> <a href=""><strong>Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li><li> <a href="">surface Go</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+
+				</ul>
+					</div> </div>
+<div class="container
+			<div class="row">
+				<div class="col-sm-2"
+						<ul class="list-unstyled"
+					<li> <a href=""><strong>Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li><li> <a href="">surface Go</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+
+				</ul>
+					</div> </div>
+<div class="container
+			<div class="row">
+				<div class="col-sm-2"
+						<ul class="list-unstyled"
+					<li> <a href=""><strong>Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li><li> <a href="">surface Go</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+
+				</ul>
+					</div> </div>
+<div class="container
+			<div class="row">
+				<div class="col-sm-2"
+						<ul class="list-unstyled"
+					<li> <a href=""><strong>Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li><li> <a href="">surface Go</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+
+				</ul>
+					</div> </div>
+<div class="container
+			<div class="row">
+				<div class="col-sm-2"
+						<ul class="list-unstyled"
+					<li> <a href=""><strong>Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li><li> <a href="">surface Go</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+<li> <a href="">Whats nwe</a></li>
+
+				</ul>
+					</div> </div>
+
+		</section>
+
+<sectin footer-bottom">
+		<div class="container
+				<div class="row>
+					<div class="col-sm-2 text-left"><ulEnglsih</
+						<div class="col-sm-10 text-right">right side content</
+		</section>
+
+
+- 2,2,2,2,4 or 2,2,2,2,2
+
+- new folder (css/style.css)
+
+
+style.css
+.footer-top a
+{
+	color: #666;
+
+}
+
+.footer
+{
+	padding:10px 0;
+	bacgkroudnd0color:#fjd;
+
+
+	}
+
+<link css file> in .dwt file
+
+
+.footer-bottom
+{padding:33px 0;
+
+}
+
+
+- container class in bootstrap.css (check code)
+
+
+
+
+
+
+
+
+
+
+
+
